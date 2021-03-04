@@ -28,7 +28,7 @@ public class EmployeeRestController {
 	
 	@RequestMapping("/test")
 	public String populateEmp() {
-		return "hello";
+		return "hello world";
 	}
 	
 	@RequestMapping("/test1")
