@@ -31,6 +31,11 @@ public class EmployeeRestController {
 		return "hello";
 	}
 	
+	@RequestMapping("/test1")
+	public String populateEmp1() {
+		return "hello1";
+	}
+	
 	@SuppressWarnings("deprecation")
 	@RequestMapping("/list")
 	public Page<Employee> epm(@RequestParam(defaultValue = "0") int page) {
